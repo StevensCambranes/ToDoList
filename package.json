@@ -1,0 +1,37 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Este es un proyecto individual y propio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevensCambranes/ToDoList.git"
+  },
+  "keywords": [
+    "ToDoList",
+    "Express",
+    "MySQL",
+    "organizer",
+    "tasks",
+    "nodejs project"
+  ],
+  "author": "ESCM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevensCambranes/ToDoList/issues"
+  },
+  "homepage": "https://github.com/StevensCambranes/ToDoList#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
